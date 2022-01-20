@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+h3{
+  color: white;
+  font-family: "Arvo", cursive; 
+  font-size: medium;
+  display: inline;
+}
+#lives_font{
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+.alginit{
+  text-align: right;
+  margin-right: 20%;
+}
+#word{
+  margin: 5% auto;
+}
+.letterBox{
+display:inline;
+height: 100px;
+width: 100px;
+font-size: 2rem;
+background-color: white;
+padding:1%;
+margin: 1%;
+}
+#guessbox{
+  width:50px;
+  margin-left:2%;
+  font-size: 22px;
+  font-family:"Arvo", cursive ;
+  
+
+}
+#check{
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  font-family:"Arvo", cursive ;
+  border-radius: 25%;
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-left:5% ;
+  background-color: green;
+}
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+ 
+}
+

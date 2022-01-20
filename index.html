@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang-man</title>
+    <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    
+</head>
+<body>
+    <h1 id="title">Hang Man</h1>
+    <div id ="outerdiv">
+        <h2 id="lives_font" class="alginit">Lives: <span id="lives">10</span></h2>
+        <div id="word">
+            <div id="letter">A</div>
+            <div id="letter">A</div>
+            <div id="letter">A</div>
+            <div id="letter">A</div>
+            <div id="letter">A</div>
+            
+
+        </div>
+        <h2 id="lives_font"><span id="hintword">The begining</span></h2>
+
+    </div>
+    <div id="inputbox" >
+        <h3 >Enter the guessed letter</h3>
+        <textarea maxlength="1" id="guessbox"></textarea>
+        <button id="check" onclick="Checktheletter()">Check</button>
+    </div>
+
+    <footer>
+        Made with ❤️ .
+      </footer>
+      <script src="hangman.js"></script>
+</body>
+</html>
